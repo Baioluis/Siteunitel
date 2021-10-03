@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    color: #5C0F8B;
+}
+
+#menu-logo{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#menu-bottom{
+    background-color: darkorange;
+    color: white;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    width: 200px;
+    height: 40px;
+}
+
+#menu{
+    background-color: white;
+}
+
+#icones{
+    background-color: #f16223;
+    padding: 50px;
+    text-align: center;
+
+}
+
+#icones a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.container-1, .container-2{
+    width: 100%;
+}
+#container{
+    background: white;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#Destaque, #Destaque-lateral{ 
+   margin-top: 10px;
+}
+
+#Destaque{
+    width: 600px;
+    float: left;
+    padding: 10px;
+}
+
+#Destaque-lateral{
+    padding: 50px;
+    width: 320px;
+    float: right;
+}
+.d-grid gap-2 col-6 mx-auto button{
+    margin: 20px;
+}
+
+#banner_texto{
+    margin: 40px;
+    text-align: left;
+    color: white;
+}
+
+#colunas{
+    clear: both;
+}
+
+.col: hover{
+        $box-shadow:                  0 .5rem 1rem rgba($black, .15);
+    $box-shadow-sm:               0 .125rem .25rem rgba($black, .075);
+    $box-shadow-lg:               0 1rem 3rem rgba($black, .175);
+    $box-shadow-inset:            inset 0 1px 2px rgba($black, .075);
+}
+
+.container-3{
+    padding: 30px;
+    clear: both;
+
+}
+
+.hero-image {
+  clear: both;
+  background-image: url("../img/phone.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 70px;
+}
+
+.card-1{
+    float: left;
+    padding: 10px;
+}
+.card-img-top{
+    width: 500px;
+}
+
+.card-2{
+    float: right;
+}
+
+#rodape_pri{
+    display: inline-block;
+}
+#rodape{
+    background-color: darkorange;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#primeira ul li{
+    display: inline-block;
+    color: white;
+
+}
+#primeira ul li a{
+    color: white;
+}
