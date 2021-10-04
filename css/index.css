@@ -1,11 +1,15 @@
+@import url ('https://fonts.googleapis.com/css2? família=Poppins:wght@700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
     width: 100%;
     height: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
@@ -125,14 +129,106 @@ a {
     float: right;
 }
 
-#rodape_pri{
+ul{
+    list-style: none;
+}
+
+.container_0{
+    margin: auto;
+    max-width: 1170px;
+}
+
+.rower{
+    display: flex;
+    flex-wrap: wap;
+}
+
+.footer{
+    background-color: #5C0F8B;
+    padding: 70px 0;
+}
+
+.footer_col{
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer_col h4{
+    font-size: 18px;
+    color: #F16223;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.footer_col h4:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer_col ul li{
+    margin-bottom: ~10px;
+
+}
+
+.footer_col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #F16223;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    color: ##F16223;
+    transform: all 0.3s ease;
+
+}
+
+.footer_col ul li a:hover{
+    color: #F16223;
+    padding-left: 8px;
+
+}
+
+.footer_col .social-midia a{
     display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(225, 225, 225, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: ##F16223;
+    transform: all 0.5s ease;
 }
-#rodape{
-    background-color: darkorange;
+.social-midia img{
+    padding: 15px;
+}
+
+.co_te{
     padding: 10px;
-    margin: 0 auto;
+    text-align: center;
 }
+.Copyrigth, .Termos{
+    color: white;
+}
+.Copyrigth{
+    float: left;
+}
+
+.Termos{
+    float: right;
+}
+
+
+//** rodape **//
 
 #primeira ul li{
     display: inline-block;
@@ -142,3 +238,6 @@ a {
 #primeira ul li a{
     color: white;
 }
+
+
+
